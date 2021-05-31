@@ -17,29 +17,32 @@
 
 
 #### pirate :
-- à installer :  
+- À installer :  
 `sudo apt-get update -y`    
 `sudo apt-get install -y wireshark`  
 `sudo apt-get install -y tcpdump`  
 
-
-#### ftp-pirate :
-- à installer :  
-`sudo apt-get update -y`    
-`sudo apt-get install -y filezilla`  
+<!-- `sudo apt-get install -y filezilla`  
 `sudo apt-get install -y ftp`  
-`sudo apt-get install -y sleuthkit`  
+`sudo apt-get install -y sleuthkit`   -->
 
-#### ssh-pirate :
-- à installer :  
+
+<!-- `sudo apt-get install -y ssh`   -->
+
+#### Serveur ftp-pirate :
+- À installer :  
+`sudo apt-get update -y`    
+`sudo apt-get install -y vsftpd` 
+
+#### Serveur ssh-pirate :
+- À installer :  
 `sudo apt-get update -y`  
-`sudo apt-get install -y ssh`  
+`sudo apt-get install -y openssh-server`
 
 
-
-#### cc-pirate :
-- à installer :  
+#### Serveur cc-pirate :
+- À installer :  
 `sudo apt-get update -y`  
-`sudo apt-get install -y ssh`  
+
 
 
