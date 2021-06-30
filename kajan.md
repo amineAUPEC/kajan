@@ -129,10 +129,10 @@ docx=word
 
 
 -  ftp-pirate -> poste :
-curl ftp_transf.sh > ftp_transf.sh
+<!-- curl ftp_transf.sh > ftp_transf.sh -->
 
 
-
+ftp poste 
 
 
 - serveur pirate ftp

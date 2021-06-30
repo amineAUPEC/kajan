@@ -7,6 +7,7 @@ ftp -n -v $HOST << EOT
 ascii
 user $USER $PASSWD
 prompt
-find -type f -name \"*.sql\" -exec put \'{}\'
+ls
+mget * <<< yes
 bye
 EOT
