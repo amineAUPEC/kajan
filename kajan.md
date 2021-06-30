@@ -133,7 +133,9 @@ docx=word
 
 
 ftp poste 
-
+ls
+mget *
+quit
 
 - serveur pirate ftp
 
