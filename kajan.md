@@ -142,7 +142,8 @@ quit
 
 ## Explications :
 
--  VM vers hôte uniquement:réseau privé hôte
+-  VM vers hôte uniquement:réseau privé hôte (routeur)
+-  VM vers VM voire hôte : Accès par pont : Réseau1bis(entreprise)
 -  VM vers VM : Accès par pont : Réseau1(entreprise) 
 -  VM vers VM : Accès par pont : Réseau2(pirate) 
 
