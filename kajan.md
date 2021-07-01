@@ -140,7 +140,7 @@ quit
 - serveur pirate ftp
 
 
-- Explications :
+## Explications :
 
 -  VM vers hôte uniquement:réseau privé hôte
 -  VM vers VM : Accès par pont : Réseau1(entreprise) 
