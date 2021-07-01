@@ -140,7 +140,18 @@ quit
 - serveur pirate ftp
 
 
+- Explications :
 
+-  VM vers hôte uniquement:réseau privé hôte
+-  VM vers VM : Accès par pont : Réseau1(entreprise) 
+-  VM vers VM : Accès par pont : Réseau2(pirate) 
+
+Routeur fait liaison de Réseau1(entreprise)  vers Réseau2(pirate) 
+
+
+- réseau privé hôte : 192.168.1.1 192.168.1.2 192.168.1.3
+- Accès par pont : Réseau1(entreprise) : 192.168.1.21 (www) 192.168.1.56(Routeur) 192.168.1.X
+- Accès par pont : Réseau2(pirate) : 172.16.110.X ...
 
 liens   :
 A6 )
