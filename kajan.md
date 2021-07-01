@@ -139,10 +139,30 @@ quit
 
 - serveur pirate ftp
 
+ftp-pirate
+sudo nano /etc/vsftpd.conf 
+décommenter write_enable=yes
+sudo sytemctl restart vsftpd
+from poste to ftp-pirate
+mput *
+
+
+A9) 
+- côté 
+echo 'byebye' > pots_de_vin1.xlsx
+echo 'naruto' > pots_de_vin8.xlsx
+echo 'hinataestnul' > pots_de_vinnaruto.xlsx
+
+
+
+
+
+177.16.1.5 cc-pirate
+<!-- 177.16.1.3 pirate  *obsolète* -->
 
 ## Explications :
 
--  VM vers hôte uniquement:réseau privé hôte (routeur)
+-  VM vers hôte uniquement:réseau privé hôte (routeur) -> dédiée au SSH
 -  VM vers VM voire hôte : Accès par pont : Réseau1bis(entreprise)
 -  VM vers VM : Accès par pont : Réseau1(entreprise) 
 -  VM vers VM : Accès par pont : Réseau2(pirate) 
