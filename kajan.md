@@ -259,7 +259,7 @@ H 3 * * * nc -l -p 4242 &> /dev/null
 
 - Serveur CC :
 
-nc $ipsrventreprise 4242
+nc poste 4242
 
 
 
@@ -316,3 +316,32 @@ https://www.makeuseof.com/tcpdump-examples/#:~:text=%20The%20tcpdump%20Output%20
 
 A7)
 https://www.kali-linux.fr/hacking/tutohydrabruteforce
+
+
+
+
+
+
+## à faire
+<!-- 
+A7) 
+
+tu dois montrer auth.log de poste en + 
+et aussi au moment ou tu fais hydra -->
+
+
+A9)
+sleuthkit  voir vidéo récup le fichier exfiltration.sh
+
+https://www.youtube.com/watch?v=R-IE2j04Chc
+https://www.youtube.com/watch?v=wJ6E1ndOooI
+A10)
+
+comment il fait la trace crontab à part avec tcpdump
+
+je fais tcpdump sur tous les jours
+
+
+tcpdump
+
+
