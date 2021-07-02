@@ -331,17 +331,17 @@ et aussi au moment ou tu fais hydra -->
 
 
 A9)
-sleuthkit  voir vidéo récup le fichier exfiltration.sh
+sleuthkit  voir vidéo récup le fichier exfiltration.sh  
 
-https://www.youtube.com/watch?v=R-IE2j04Chc
-https://www.youtube.com/watch?v=wJ6E1ndOooI
-A10)
+https://www.youtube.com/watch?v=R-IE2j04Chc  
+https://www.youtube.com/watch?v=wJ6E1ndOooI  
+A10)    
 
-comment il fait la trace crontab à part avec tcpdump
+comment il fait la trace crontab à part avec tcpdump  
 
-je fais tcpdump sur tous les jours
+je fais tcpdump sur tous les jours  
 
 
-tcpdump
+tcpdump  
 
 
