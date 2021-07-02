@@ -1,5 +1,5 @@
 #!/bin/bash
-HOST='192.168.1.3'
+HOST='177.16.1.'
 USER='etudiant'
 PASSWD='vitrygtr'
 
@@ -8,6 +8,6 @@ ascii
 user $USER $PASSWD
 prompt
 ls
-mget * <<< yes
+mput * 
 bye
 EOT
