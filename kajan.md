@@ -93,7 +93,7 @@ sudo cp `sudo find / -name "*.pcap*"` /var/www/html/
 
 
 ```
-// expliquer les paramètres de Nmap   
+- Epliquer les paramètres de Nmap   
 -T4 : Requête faite très rapidement  
 -T5 : Requête faite ultra vite  
 -T1 : Requête faite très lentement donc + de chances de trouver bcp d'appareils  
@@ -113,10 +113,9 @@ Puis il vérifie si le port 80 peut lui renvoyer un acquittement ACK.Avec le pro
 
 
 
-Nmap avec l'option :
+- Nmap avec l'option :
     - -sn utilise le protocole ICMP OU --disable-arp-ping
     - -sP utilise le protocole ARP (ping sweep)
-Nma
 
 A7)
 
