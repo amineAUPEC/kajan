@@ -335,13 +335,14 @@ sleuthkit  voir vidéo récup le fichier exfiltration.sh
 
 https://www.youtube.com/watch?v=R-IE2j04Chc  
 https://www.youtube.com/watch?v=wJ6E1ndOooI  
-A10)    
+
+<!-- A10)    
 
 comment il fait la trace crontab à part avec tcpdump  
 
 je fais tcpdump sur tous les jours  
 
 
-tcpdump  
+tcpdump   -->
 
 
