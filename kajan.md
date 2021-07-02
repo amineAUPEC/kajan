@@ -189,9 +189,13 @@ quit
 
 A9) 
 - côté poste/web : préparation :
-echo 'byebye' > pots_de_vin1.xlsx
-echo 'naruto' > pots_de_vin8.xlsx
-echo 'hinataestnul' > pots_de_vinnaruto.xlsx
+
+```bash
+echo 'byebye' > pots_de_vin1.xlsx  
+echo 'naruto' > pots_de_vin8.xlsx  
+echo 'hinataestnul' > pots_de_vinnaruto.xlsx  
+```
+
 
 - côté ssh-pirate : préparation : 
 cd /home/etudiant && mkdir /home/etudiant/data
