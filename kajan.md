@@ -361,10 +361,14 @@ https://stackoverflow.com/questions/1346509/automate-scp-file-transfer-using-a-s
 https://lateambichon.com/fr/nmap-scan-port-serveur-firewall/
 https://www.hackingarticles.in/understanding-guide-nmap-ping-scan-firewall-bypass/#:~:text=Ping%20scan%20in%20nmap%20is%20done%20to%20check,behavior%20according%20to%20the%20network%20they%20are%20scanning.
 
-
+- sleuthkit
+https://linuxhint.com/sleuth_kit_autopsy/
 
 - reverse shell :
 https://www.exploit-db.com/raw/31347
+https://www.hackingtutorials.org/networking/hacking-netcat-part-2-bind-reverse-shells/
+https://www.geeksforgeeks.org/how-to-create-reverse-shells-with-netcat-in-kali-linux/
+https://en.m.wikipedia.org/wiki/Web_shell
 
 - vulnérabilité :
 
