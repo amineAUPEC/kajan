@@ -373,3 +373,6 @@ https://en.m.wikipedia.org/wiki/Web_shell
 - vulnérabilité :
 
 https://ubuntu.com/security/cve?q=&package=linux&priority=high&version=raring&status=
+
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
