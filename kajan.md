@@ -346,3 +346,26 @@ je fais tcpdump sur tous les jours
 tcpdump   -->
 
 
+
+
+## liens :
+
+A9)
+- scp
+https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
+https://stackoverflow.com/questions/1346509/automate-scp-file-transfer-using-a-shell-script
+https://stackoverflow.com/questions/1346509/automate-scp-file-transfer-using-a-shell-script
+
+
+- nmap :
+https://lateambichon.com/fr/nmap-scan-port-serveur-firewall/
+https://www.hackingarticles.in/understanding-guide-nmap-ping-scan-firewall-bypass/#:~:text=Ping%20scan%20in%20nmap%20is%20done%20to%20check,behavior%20according%20to%20the%20network%20they%20are%20scanning.
+
+
+
+- reverse shell :
+https://www.exploit-db.com/raw/31347
+
+- vulnérabilité :
+
+https://ubuntu.com/security/cve?q=&package=linux&priority=high&version=raring&status=
