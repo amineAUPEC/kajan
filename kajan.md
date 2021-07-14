@@ -93,7 +93,7 @@ sudo cp `sudo find / -name "*.pcap*"` /var/www/html/
 
 
 ```
-- Epliquer les paramètres de Nmap   
+- Expliquer les paramètres de Nmap   
 -T4 : Requête faite très rapidement  
 -T5 : Requête faite ultra vite  
 -T1 : Requête faite très lentement donc + de chances de trouver bcp d'appareils  
